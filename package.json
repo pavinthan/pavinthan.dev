@@ -1,7 +1,7 @@
 {
   "name": "pavinthan.dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Pavinthan's personal website.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,10 +14,14 @@
   },
   "dependencies": {
     "gatsby": "^2.15.28",
+    "gatsby-plugin-postcss": "^2.1.10",
+    "gatsby-plugin-purgecss": "^4.0.1",
     "react": "^16.10.0",
-    "react-dom": "^16.10.0"
+    "react-dom": "^16.10.0",
+    "tailwindcss": "^1.1.2"
   },
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.9.0",
     "prettier": "^1.18.2"
   },
   "repository": {
