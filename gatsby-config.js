@@ -5,5 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Pavinthan`,
+    siteUrl: `https://pavinthan.dev`,
+    description: `A blog by Pavinthan`,
+  },
 }
