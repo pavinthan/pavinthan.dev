@@ -3,3 +3,6 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@import "layout.css";
+@import "blog-content.css";

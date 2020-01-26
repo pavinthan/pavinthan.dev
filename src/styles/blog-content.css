@@ -1,0 +1,11 @@
+.blog-content h2 {
+  @apply my-3 text-xl font-bold;
+}
+
+.blog-content p {
+  @apply my-3;
+}
+
+.blog-content p code {
+  color: #fc8181 !important;
+}
