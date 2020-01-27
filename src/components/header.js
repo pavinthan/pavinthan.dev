@@ -21,7 +21,7 @@ const ThemeSwitch = ({ theme, onChange }) => (
 )
 
 const Header = () => (
-  <header className="flex justify-between py-3">
+  <header className="flex justify-between p-3">
     <div>
       <Link to="/" className="nav-link">
         Home

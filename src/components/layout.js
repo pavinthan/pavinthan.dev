@@ -25,8 +25,8 @@ const Layout = ({ children }) => (
     render={data => (
       <div className="container flex flex-1 flex-col max-w-2xl mx-auto">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="flex flex-1 flex-col">{children}</main>
-        <footer className="flex justify-center py-3">
+        <main className="flex flex-1 flex-col p-3">{children}</main>
+        <footer className="flex justify-center p-3">
           © {new Date().getFullYear()}, Built with
           <a className="ml-1" href="https://www.gatsbyjs.org">
             Gatsby
